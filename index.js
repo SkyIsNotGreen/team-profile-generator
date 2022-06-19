@@ -117,7 +117,7 @@ const getEmployeeInfo = (role) => {
 
 // write html file
 const writeToFile = (generatedHTML) => {
-  fs.writeFile("./dist/team.html", generatedHTML, (err) => {
+  fs.writeFile("./dist/generated-team.html", generatedHTML, (err) => {
     if (err) throw err;
     console.log("Successfully wrote to team.html");
   });
