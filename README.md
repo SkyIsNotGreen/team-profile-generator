@@ -52,6 +52,9 @@ To contribute, please open a pull request with a brief description of work done.
 Please follow the instructions below:
 ``` 
 npm run test1
+npm run test2
+npm run test3
+npm run test4
 ```
 ### Screenshot
 ![image](https://user-images.githubusercontent.com/60657981/174502022-414570b3-e00f-4bd4-901f-43c4e4b9d8da.png)
