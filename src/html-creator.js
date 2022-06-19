@@ -67,11 +67,11 @@ const createInternCard = (intern) => {
 const createHTML = (staff) => {
 
     const cards = staff.map(employee => {
-        if (employee.getRole() === "Manager") {
+        if (employee.getRole() === "manager") {
             return createManagerCard(employee);
-        } else if (employee.getRole() === "Engineer") {
+        } else if (employee.getRole() === "engineer") {
             return createEngineerCard(employee);
-        } else if (employee.getRole() === "Intern") {
+        } else if (employee.getRole() === "intern") {
             return createInternCard(employee);
         }
     }).join("");

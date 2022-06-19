@@ -1,7 +1,7 @@
 // dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
-const createHTML = require("./src/create-html.js");
+const createHTML = require("./src/html-creator.js");
 
 const Employee = require("./lib/employee.js");
 const Manager = require("./lib/manager.js");
@@ -11,7 +11,7 @@ const Engineer = require("./lib/engineer.js");
 const staff = [];
 
 // function to get user input and create new employee object
-const getEmployeeInfo = () => {
+const getEmployeeInfo = (role) => {
   return inquirer
     .prompt([
       {
@@ -54,7 +54,7 @@ const getEmployeeInfo = () => {
       },
 
       {
-        type: list,
+        type: "list",
         message: "What do you wish to do next?",
         name: "nextStep",
         choices: ["Add an engineer", "Add an intern", "Build my team"],
@@ -125,8 +125,8 @@ const writeToFile = (generatedHTML) => {
 
 const init = () => {
     console.log("Welcome to the team generator!");
-    console.log("Please select a role to begin.");
-    getEmployeeInfo();
+    console.log("Please enter manager information:");
+    getEmployeeInfo("manager");
 };
 
 init ();
