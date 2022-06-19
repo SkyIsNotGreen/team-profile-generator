@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest tests/employee.test.js"
+    "test1": "jest tests/employee.test.js",
+    "test2": "jest tests/engineer.test.js",
+    "test3": "jest tests/intern.test.js",
+    "test4": "jest tests/manager.test.js"
   },
   "repository": {
     "type": "git",
