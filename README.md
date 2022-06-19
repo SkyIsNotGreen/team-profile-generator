@@ -40,7 +40,9 @@ SCREENSHOT HERE
 MIT
 
 ## Contributing
+
 How to contribute to this project:
+
 To contribute, please open a pull request with a brief description of work done.
 
 ## Tests
