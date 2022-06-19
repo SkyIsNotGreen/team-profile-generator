@@ -37,7 +37,7 @@ npm run start
 SCREENSHOT HERE
 
 ## License
-MIT
+[![License: MIT](https://img.shields.io/badge/MIT-License-green)](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
