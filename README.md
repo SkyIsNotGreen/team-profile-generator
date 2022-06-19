@@ -34,7 +34,9 @@ Please follow the instructions below:
 ``` 
 npm run start
 ```
-SCREENSHOT HERE
+# Screenshot
+![image](https://user-images.githubusercontent.com/60657981/174501936-03f3039f-b49a-47da-8374-6ac4c7b0ba07.png)
+
 
 ## License
 [![License: MIT](https://img.shields.io/badge/MIT-License-green)](https://opensource.org/licenses/MIT)
@@ -49,9 +51,11 @@ To contribute, please open a pull request with a brief description of work done.
 
 Please follow the instructions below:
 ``` 
-To test app, please open terminal in directory and type 'npm run test1'
+npm run test1
 ```
-SCREENSHOT HERE
+# Screenshot
+![image](https://user-images.githubusercontent.com/60657981/174502022-414570b3-e00f-4bd4-901f-43c4e4b9d8da.png)
+
 
 ## Credits
 
