@@ -17,7 +17,7 @@ const createManagerCard = (manager) => {
       <ul class="list-group">
         <li class="list-group-item">ID: ${manager.getId()}</li>
         <li class="list-group-item">Email: <a href="${manager.getEmail()}">${manager.getEmail()}</a></li>
-        <li class="list-group-item">Office: ${manager.officeNumber}</li>
+        <li class="list-group-item">Office: ${manager.officeLocation}</li>
       </ul>
     </div>
   </div>
