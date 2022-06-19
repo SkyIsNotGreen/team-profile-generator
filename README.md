@@ -19,7 +19,7 @@ Team profile generator that outputs HTML cards based on input from command line 
 
 Video of full functionality of app.
 
-VIDEO LINK HERE
+[VIDEO](https://drive.google.com/file/d/13B78M_TOpovH0MRVyXV_nuBR7i2ZH3jN/view)
 
 ## Installation
 
