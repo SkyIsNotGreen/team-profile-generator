@@ -1,0 +1,27 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "Team profile generator that outputs HTML based on input from command line prompts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test1": "jest tests/employee.test.js",
+    "test2": "jest tests/engineer.test.js",
+    "test3": "jest tests/intern.test.js",
+    "test4": "jest tests/manager.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyIsNotGreen/team-profile-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SkyIsNotGreen/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/SkyIsNotGreen/team-profile-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "jest": "^28.1.1"
+  }
+}
